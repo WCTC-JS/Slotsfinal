@@ -20,13 +20,12 @@
         rel="stylesheet">
 
     <!-- CSS -->
-    <link rel="stylesheet" href="style.css">
-
-
+    <link rel="stylesheet" href="styles.css">
 
 </head>
 
 <body>
+
     <header>
         <h1>Final Slots</h1>
 
@@ -41,32 +40,27 @@
 
     </header>
 
-    <!--alert here to see if user if 18-->
-    <!--pop up as an alert before you are allowed to enter the main page-->
-    <!-- <input type="text" id="dob" name="dob" placeholder="Enter DOB">
-    <button type="submit" id="submit">I am at least 18 years old!</button>
-    <br>
-    <br>
-    <br> -->
-    <!--have user sign in to their account || sign up for new account-->
+    <form class="contact-container ">
 
-    <!-- Form -->
-    <form class="register-container">
 
-        <h3 class="home-h3">Create an account!</h3>
+        <h3>Get in contact with us!</h3>
         <div class="separator1"></div>
 
-        <input type="text" class="home-input" id="name" placeholder="Name">
-        <input type="text" class="home-input" id="username" placeholder="Username">
-        <input type="email" class="home-input" id="email" aria-describedby="emailHelp" placeholder="Enter email">
-        <input type="password" class="home-input" id="password" placeholder="Password">
-        <button type="submit" class="home-button">Create</button>
+        <input type="text" name="name" id="name" class="input" placeholder="Name">
+        <input type="text" name="email" id="email" class="input" placeholder="E-mail">
+        <input type="text" name="phoneNumber" id="phoneNumber" class="input" placeholder="Phone Number">
+        <textarea name="message" id="message" class="textarea" placeholder="Message"></textarea>
+
+        <button type="submit" class="button">Send</button>
 
     </form>
 
 
 
 
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.js"
+        integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
 
     <!-- Popper and Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"
@@ -76,11 +70,11 @@
         integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj"
         crossorigin="anonymous"></script>
 
+    <!-- validation -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.2/dist/jquery.validate.js"></script>
+
     <!-- Scripts -->
-    <script src="slideshow.js"></script>
     <script src="validation.js"></script>
-
-
 
 </body>
 

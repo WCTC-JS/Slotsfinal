@@ -1,4 +1,4 @@
-* {
+** {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
@@ -37,36 +37,55 @@ header li {
 header li a {
   text-decoration: none;
   text-align: center;
-  border-radius: 5px;
-  padding: 10px 15px;
-  margin-right: 5px;
+  padding: 0px 15px;
   color: white;
 }
 
-/* Home page */
+/* Contact page */
 
-.register-container {
+.contact-container {
   display: flex;
   flex-direction: column;
   align-items: center;
   margin-top: 5%;
   width: 350px;
-  height: 400px;
+  height: 550px;
   border-radius: 15px;
   background-color: #f5f5f5;
   box-shadow: -3px -3px 7px #ffffff73, 3px 3px 5px rgba(94, 104, 121, 0.288);
 }
 
-.home-h3 {
+h3 {
   margin-top: 10%;
   padding-bottom: 4%;
   color: #2d767f;
 }
 
-.home-input {
+.separator1 {
+  width: 70px;
+  height: 3px;
+  background-color: #2d767f;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10%;
+}
+
+.input {
   border: none;
   height: 40px;
   width: 80%;
+  margin-bottom: 3%;
+  border-radius: 10px;
+  background-color: #f5f5f5;
+  box-shadow: inset -3px -3px 7px #ffffff73,
+    inset 3px 3px 5px rgba(94, 104, 121, 0.288);
+}
+
+.textarea {
+  border: none;
+  height: 150px;
+  width: 80%;
+  padding-top: 10px;
   margin-bottom: 3%;
   border-radius: 10px;
   background-color: #f5f5f5;
@@ -81,7 +100,7 @@ header li a {
   justify-content: center;
 }
 
-.home-button {
+.button {
   border: none;
   height: 40px;
   width: 80%;
@@ -94,41 +113,7 @@ header li a {
   transition: all 0.2s ease-in-out;
 }
 
-.home-button:hover {
+.button:hover {
   transform: scale(1.02);
   background-color: #1e6262;
-}
-
-.slotmachine {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.slotmachine p {
-  display: flex;
-  text-align: center;
-  justify-content: center;
-  align-items: center;
-  font-size: 30px;
-  font-weight: 600;
-  margin-right: 20px;
-  border-radius: 10px;
-  height: 100px;
-  width: 100px;
-  color: #2d767f;
-  box-shadow: -3px -3px 7px #ffffff73, 3px 3px 5px rgba(94, 104, 121, 0.288);
-}
-
-.spin-button {
-  border: none;
-  height: 40px;
-  width: 300px;
-  margin-top: 2%;
-  border-radius: 5%;
-  background-color: #2d767f;
-  color: white;
-  border-radius: 5px;
-  box-shadow: -3px -3px 7px #ffffff73, 3px 3px 5px rgba(94, 104, 121, 0.288);
-  transition: all 0.2s ease-in-out;
 }
