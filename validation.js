@@ -3,7 +3,7 @@ $(document).ready(function() {
     var myRules = {
         name: {
             required: true,
-            min: 2
+
         },
         email: {
             required: true,

@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="af6c8e7d-39ba-4efa-9b12-0983d2e94a58" name="Default Changelist" comment="" />
+    <list default="true" id="af6c8e7d-39ba-4efa-9b12-0983d2e94a58" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/validation.js" beforeDir="false" afterPath="$PROJECT_DIR$/validation.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,6 +18,14 @@
         <option value="JavaScript File" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubProjectSettings">
+    <option name="CREATE_PULL_REQUEST_DEFAULT_BRANCH" value="master" />
+    <option name="CREATE_PULL_REQUEST_DEFAULT_REPO_USER" value="WCTC-JS" />
+    <option name="CREATE_PULL_REQUEST_DEFAULT_REPO_NAME" value="Slotsfinal" />
   </component>
   <component name="ProjectId" id="1lJ7j5v7FDqP750T1qVyQmbqXey" />
   <component name="ProjectViewState">
@@ -33,6 +44,8 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -51,6 +64,7 @@
       <option name="presentableId" value="Default" />
       <updated>1607303472430</updated>
       <workItem from="1607303473652" duration="7891000" />
+      <workItem from="1607570419749" duration="7371000" />
     </task>
     <servers />
   </component>
@@ -62,5 +76,17 @@
       <screen x="0" y="0" width="1504" height="963" />
     </state>
     <state x="379" y="160" key="#Inspections/0.0.1504.963@0.0.1504.963" timestamp="1607304566869" />
+    <state x="434" y="359" key="Github.CreatePullRequestDialog" timestamp="1607576656642">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state x="434" y="359" key="Github.CreatePullRequestDialog/0.0.1280.984@0.0.1280.984" timestamp="1607576656642" />
+    <state x="141" y="137" key="SettingsEditor" timestamp="1607575933095">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state x="141" y="137" key="SettingsEditor/0.0.1280.984@0.0.1280.984" timestamp="1607575933095" />
+    <state x="457" y="406" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1607576237958">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state x="457" y="406" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.984@0.0.1280.984" timestamp="1607576237958" />
   </component>
 </project>
