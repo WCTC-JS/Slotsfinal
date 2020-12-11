@@ -3,8 +3,7 @@ $(document).ready(function() {
     // Rules
     var myRules = {
         name: {
-            required: true,
-            
+            required: true
         },
         email: {
             required: true,
@@ -15,7 +14,7 @@ $(document).ready(function() {
             digits: true
         },
         message: {
-            required: true,       
+            required: true     
         }
     };
 
