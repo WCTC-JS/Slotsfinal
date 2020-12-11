@@ -1,9 +1,10 @@
 $(document).ready(function() {
 
+    // Rules
     var myRules = {
         name: {
             required: true,
-            min: 2
+            
         },
         email: {
             required: true,
@@ -14,12 +15,11 @@ $(document).ready(function() {
             digits: true
         },
         message: {
-            required: true,
-            min: 5,
-            max: 200
+            required: true,       
         }
     };
 
+    // error messages
     var myMessages = {
         name: {
             required: "Fill this in!",
@@ -34,12 +34,9 @@ $(document).ready(function() {
             digits: "Enter a valid phone number"
         },
         message: {
-            required: "Fill this in!",
-            min: "You message is too short!",
-            max: "You message is too long!"
+            required: "Fill this in!"
         }
     };
-
 
     $("form").validate({
         submitHandler: contactUs,
@@ -47,6 +44,7 @@ $(document).ready(function() {
         messages: myMessages
     });
 
+    // functions
     function contactUs()
     {
         var customerName = $("#name").val();
