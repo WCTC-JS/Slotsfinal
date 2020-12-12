@@ -1,8 +1,15 @@
 $(document).ready(function() {
 
+    
     // Rules
     var myRules = {
         name: {
+            required: true
+        },
+        username: {
+            required: true
+        },
+        password: {
             required: true
         },
         email: {
@@ -10,7 +17,6 @@ $(document).ready(function() {
             email: true
         },
         phoneNumber: {
-            min: 10,
             digits: true
         },
         message: {
@@ -23,6 +29,13 @@ $(document).ready(function() {
         name: {
             required: "Fill this in!",
             min: "Enter a valid name"
+        },
+        username: {
+            required: "Fill this in!",
+            min: "Enter a valid username"
+        },
+        password: {
+            required: "Fill this in!"
         },
         email: {
             required: "Fill this in!",
@@ -51,8 +64,11 @@ $(document).ready(function() {
         var customerPhoneNumber = $("#email").val();
         var customerMessage = $("#message").val();
 
-        $("p").text(`You fed ${customerName} bananas to ${customerEmail} koalas ${customerPhoneNumber} ${customerMessage}`);
+        $("#newAccount").text(`Thank you ${customerName} for creating an account with Final Slots`);
+        $("#newMessage").text(`Thank you ${customerName} for creating an account with Final Slots`);
     }
 
 
 });
+
+

@@ -117,3 +117,11 @@ h3 {
   transform: scale(1.02);
   background-color: #1e6262;
 }
+
+.newMessage {
+  margin-top: 3%;
+  font-size: 40px;
+  color: #107a8b;
+  font-weight: 800;
+  text-shadow: 2px 5px 5px lightgrey;
+}
